@@ -1,0 +1,25 @@
+[package]
+name = "parse-css-font"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.81"
+description = "Parse the CSS `font` shorthand into its components (style, variant, weight, stretch, size, line-height, family). Zero dependencies, no_std."
+documentation = "https://docs.rs/parse-css-font"
+repository = "https://github.com/trananhtung/parse-css-font"
+homepage = "https://github.com/trananhtung/parse-css-font"
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+keywords = ["css", "font", "shorthand", "parser", "canvas"]
+categories = ["parser-implementations", "web-programming", "no-std"]
+authors = ["trananhtung"]
+exclude = ["/.github", "/.gitignore"]
+
+[dependencies]
+
+[lints.rust]
+missing_docs = "warn"
+unsafe_code = "forbid"
+
+[lints.clippy]
+all = "warn"
+pedantic = "warn"
