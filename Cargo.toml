@@ -1,6 +1,6 @@
 [package]
 name = "parse-css-font"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 rust-version = "1.81"
 description = "Parse the CSS `font` shorthand into its components (style, variant, weight, stretch, size, line-height, family). Zero dependencies, no_std."
